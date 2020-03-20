@@ -1,0 +1,12 @@
+[2019-07-01 09:39:12] INFO: CompareM v0.0.23
+[2019-07-01 09:39:12] INFO: comparem aai_wf proteins -x faa --proteins -c 36 aai_final --tmp_dir tmp -c 30
+[2019-07-01 09:39:12] INFO: Appending genome identifiers to query genes.
+[2019-07-01 09:39:14] INFO: Creating DIAMOND database (be patient!).
+[2019-07-01 09:39:17] INFO: Performing self similarity sequence between genomes (be patient!).
+[2019-07-01 09:44:27] INFO: Sorting table with hits (be patient!).
+[2019-07-01 09:47:49] INFO: Sequence similarity results written to: aai_final/similarity
+[2019-07-01 09:47:49] INFO: Calculating length of genes.
+[2019-07-01 09:47:51] INFO: Indexing sorted hit table.
+[2019-07-01 09:48:51] INFO: Calculating AAI between all 14535 pairs of genomes:
+[2019-07-01 09:53:38] INFO: Summarizing AAI results.
+[2019-07-01 09:53:38] INFO: AAI between genomes written to: aai_final/aai/aai_summary.tsv
