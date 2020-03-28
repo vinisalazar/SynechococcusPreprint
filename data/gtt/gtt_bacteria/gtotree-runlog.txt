@@ -1,0 +1,167 @@
+
+
+               GToTree v1.4.12 (github.com/AstrobioMike/GToTree)
+
+
+ ---------------------------------  RUN INFO  --------------------------------- 
+
+    Command entered:
+    /home/vini/anaconda3/envs/gtt/bin/GToTree -A gtt_input.csv -H Bacteria -o gtt_bacteria -m gtt_labels.tsv -n 64 -j 64
+
+
+    Input genome sources include:
+      - Amino acid files listed in gtt_input.csv (171 genomes)
+
+                             [0;32mTotal input genomes: 171[0m
+
+    HMM source to be used:
+      - Bacteria (74 targets)
+
+
+    Options set:
+      - The output directory has been set to "gtt_bacteria/".
+      - The file "gtt_labels.tsv" will be used to modify labels of the specified genomes.
+      - Number of cpus to use during hmm search ("-n") has been set to 64.
+      - Number of jobs to run during parallelizable steps has been set to 64.
+
+ ############################################################################## 
+ ####         Working on the genomes provided as amino acid files          ####
+ ############################################################################## 
+
+           It is currently 12:16 AM; the process started at 12:16 AM.
+               Current process runtime: 0 hours and 0 minutes.
+
+_______________________________________________________________________________
+
+
+ ############################################################################## 
+ ####                     Filtering genes by length                        ####
+ ############################################################################## 
+
+     Keeping those with lengths within 20% of the median for the gene set.
+
+           It is currently 12:17 AM; the process started at 12:16 AM.
+               Current process runtime: 0 hours and 0 minutes.
+
+
+  [0;31m********************************** [0mNOTICE [0;31m**********************************[0m  
+    1 gene(s) either had no hits in any genome, or only multiple hits per
+    genome... Just so ya know!!
+
+	  These included:
+
+                     YajC
+
+        Reported in "gtt_bacteria/run_files/Genes_with_no_hits_to_any_genomes.txt".
+
+   You can figure out which of those two scenarios was the cause by checking out
+   "gtt_bacteria/SCG_hit_counts.tsv".
+  [0;31m****************************************************************************[0m  
+
+________________________________________________________________________________ 
+
+
+
+ ############################################################################## 
+ ####                Filtering genomes with too few hits                   ####
+ ############################################################################## 
+
+     Removing those with fewer than 50% of the total SCGs targeted.
+
+           It is currently 12:17 AM; the process started at 12:16 AM.
+               Current process runtime: 0 hours and 0 minutes.
+
+     [0;31m*******************************[0m NOTICE [0;31m*******************************[0m  
+	  11 genome(s) removed from analysis due to having too few hits.
+
+        Reported in "gtt_bacteria/run_files/Genomes_removed_for_too_few_hits.tsv".
+     [0;31m********************************************************************** [0m
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####          Aligning, trimming, and inserting gap-sequences             ####
+ ############################################################################## 
+
+           It is currently 12:17 AM; the process started at 12:16 AM.
+               Current process runtime: 0 hours and 0 minutes.
+
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                  Catting all alignments together                     ####
+ ############################################################################## 
+
+           It is currently 12:17 AM; the process started at 12:16 AM.
+               Current process runtime: 0 hours and 0 minutes.
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                   Adding more informative headers                    ####
+ ############################################################################## 
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                          Running FastTree                            ####
+ ############################################################################## 
+
+           It is currently 12:17 AM; the process started at 12:16 AM.
+               Current process runtime: 0 hours and 0 minutes.
+
+
+
+#################################################################################
+####                                 [0;32mDone!![0m                                  ####
+#################################################################################
+
+  Overall, 160 genomes of the input 171 were retained (see notes below).
+
+    Tree written to:
+        [0;32mgtt_bacteria/gtt_bacteria.tre[0m
+
+    Alignment written to:
+        [0;32mgtt_bacteria/Aligned_SCGs_mod_names.faa[0m
+
+    Summary file with comp./redund. estimates written to:
+        [0;32mgtt_bacteria/Genomes_summary_info.tsv[0m
+
+    Summary table with hits per target gene per genome written to:
+        [0;32mgtt_bacteria/SCG_hit_counts.tsv[0m
+
+    Partitions (for downstream use with mixed-model treeing) written to:
+        [0;32mgtt_bacteria/run_files/Partitions.txt[0m
+
+________________________________________________________________________________
+
+  Notes:
+
+    [0;31m11 genome(s) removed due to having too few hits to the targeted SCGs.[0m
+    1 gene(s) had no hits in any genome.
+    3 genome(s) had an estimated redundancy of >= 10%.
+
+        Reported in "gtt_bacteria/run_files/".
+________________________________________________________________________________
+
+    Log file written to:
+        [0;32mgtt_bacteria/gtotree-runlog.txt[0m
+
+    Programs used and their citations have been written to:
+        [0;32mgtt_bacteria/citations.txt[0m
+
+                                         Total process runtime: 0 hours and 3 minutes.
+                                                      [0;32mHappy Tuesday :)[0m
+
