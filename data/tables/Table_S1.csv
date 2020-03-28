@@ -1,8 +1,8 @@
 organism_name,New_Genus,New_Species,Strain,assembly_accession,bioproject,biosample,Completeness,Contamination,submitter,seq_rel_date,Size,GC
-Thermosynechococcus vulcanus NIES-2134,Thermosynechococcus,vulcanus,NIES-2134,GCA_003990665.2,PRJDB5665,SAMD00081177,99.73,0.0,Toyohashi University of Technology,2017/10/25,2.571271,53.919520735076155
+Thermosynechococcus elongatus NIES-2134,Thermosynechococcus,elongatus,NIES-2134,GCA_003990665.2,PRJDB5665,SAMD00081177,99.73,0.0,Toyohashi University of Technology,2017/10/25,2.571271,53.919520735076155
 Synechococcus lividus PCC 6715,Thermosynechococcus,sp.,PCC 6715,GCA_002754935.1,PRJNA352894,SAMN06008796,98.96,0.0,Peking University Shenzhen Graduate School,2017/11/06,2.659739,53.51479976042762
-Thermosynechococcus elongatus BP-1,Thermosynechococcus,vulcanus,BP-1,GCA_000011345.1,PRJNA308,SAMD00061106,99.73,0.0,Kazusa,2004/05/11,2.593857,53.91792993985405
-Thermosynechococcus elongatus PKUAC-SCTE542,Thermosynechococcus,elongatus,PKUAC-SCTE542,GCA_003555505.1,PRJNA489155,SAMN09949183,94.34,0.27,Peking University Shenzhen Graduate School,2018/09/13,2.6487279999999997,53.25118320944997
+Thermosynechococcus elongatus BP-1,Thermosynechococcus,elongatus,BP-1,GCA_000011345.1,PRJNA308,SAMD00061106,99.73,0.0,Kazusa,2004/05/11,2.593857,53.91792993985405
+Thermosynechococcus vulcanus PKUAC-SCTE542,Thermosynechococcus,vulcanus,PKUAC-SCTE542,GCA_003555505.1,PRJNA489155,SAMN09949183,94.34,0.27,Peking University Shenzhen Graduate School,2018/09/13,2.6487279999999997,53.25118320944997
 Thermosynechococcus sp. NK55a,Thermosynechococcus,sp.,NK55a,GCA_000505665.1,PRJNA218025,SAMN02641554,99.73,0.0,PNNL,2013/12/11,2.520064,53.80724457791548
 Thermosynechococcus sp. CL-1,Thermosynechococcus,sp.,CL-1,GCA_008386235.1,PRJNA544238,SAMN11823200,100.0,0.0,Academia Sinica,2019/09/16,2.647823,53.477819325536494
 Candidatus Synechococcus spongiarum SH4,Synechospongium,sp.,SH4,GCA_000586015.1,PRJNA238381,SAMN02643444,83.83,1.22,The Hong Kong University of Science and Technology,2014/03/07,1.658709,63.05156600705729
