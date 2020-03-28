@@ -1,12 +1,11 @@
-Genus,Size mean (Mb),Size std,GC % mean,GC % std,No_genomes
-Parasynechococcus,1.96,0.46,58.14,3.02,47.0
-Pseudosynechococcus,2.22,0.48,56.43,3.19,41.0
-Synechospongium,1.86,0.28,61.56,1.14,28.0
-Enugrolinea,3.33,0.11,49.26,0.1,12.0
-Regnicoccus,2.79,0.51,65.36,2.46,9.0
-Inmanicoccus,1.78,0.27,61.04,1.55,8.0
-Leptococcus,3.06,0.1,56.34,2.74,8.0
-Thermosynechococcus,2.61,0.06,53.65,0.27,6.0
-Synechococcus,2.75,0.08,55.27,0.25,5.0
-Lacustricoccus,1.98,0.62,51.81,0.72,3.0
-Magnicoccus,2.53,0.23,63.43,0.56,3.0
+Genus,# genomes,# species*,Type Genome,NCBI name,Lifestyle,GC content (%),Genome size (Mbps)
+Pseudosynechococcus,41.0,21,Pseudosynechococcus subtropicalis WH 7805,Synechococcus sp.,Marine (oceanic),56.43 ± 3.19,2.22 ± 0.48
+Synechospongium,28.0,7,Synechospongium spongiarum 15L,Candidatus Synechococcus spongiarum,Symbiont,61.56 ± 1.14,1.86 ± 0.28
+Enugrolinea,12.0,3,Enugrolinea euryhalinus PCC 7002,Synechococcus sp.,Freshwater,49.26 ± 0.1,3.33 ± 0.11
+Regnicoccus,9.0,7,Regnicoccus antarcticus WH 5701,Synechococcus sp.,Marine (coastal),65.36 ± 2.46,2.79 ± 0.51
+Inmanicoccus,8.0,5,Inmanicoccus mediterranei RCC307,Synechococcus sp.,Marine (coastal),61.04 ± 1.55,1.78 ± 0.27
+Leptococcus,8.0,2,Leptococcus yellowstonii JA-3-3Ab,Synechococcus sp.,Thermophilic,56.34 ± 2.74,3.06 ± 0.1
+Thermosynechococcus,6.0,5,Thermosynechococcus vulcanus NIES-2134,Thermosynechococcus vulcanus,Thermophilic,53.65 ± 0.27,2.61 ± 0.06
+Synechococcus,5.0,2,Synechococcus elongatus PCC 6301,Synechococcus elongatus,Freshwater,55.27 ± 0.25,2.75 ± 0.08
+Lacustricoccus,3.0,2,Lacustricoccus lacustris TousA,Synechococcus lacustris,Brackish,51.81 ± 0.72,1.98 ± 0.62
+Magnicoccus,3.0,2,Magnicoccus sudiatlanticus CB0101,Synechococcus sp.,Marine (coastal),63.43 ± 0.56,2.53 ± 0.23
